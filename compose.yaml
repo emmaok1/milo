@@ -1,0 +1,21 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.15.5
+    volumes:
+      - qdrant_data:/qdrant/storage
+    networks: [memory]
+  memory:
+    build: ./services/memory
+    env_file: .env.local
+    environment:
+      MEM0_TELEMETRY: "false"
+    ports: ["127.0.0.1:8001:8001"]
+    volumes:
+      - memory_history:/data
+    depends_on: [qdrant]
+    networks: [memory]
+volumes:
+  qdrant_data:
+  memory_history:
+networks:
+  memory:

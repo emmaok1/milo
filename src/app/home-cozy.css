@@ -1,0 +1,76 @@
+/* A quiet living room and one place to keep the day's moments. */
+.reference-home {
+  --mobile-paper: #fbf7ef;
+  --mobile-ink: #48443c;
+  --mobile-sage: #738566;
+  --mobile-gray: #8b8579;
+  background: var(--mobile-paper);
+}
+.reference-home .m-body { padding: 0 20px 26px; }
+.cozy-room { aspect-ratio: 4 / 3; height: auto; margin: 0 -20px 20px; isolation: isolate; background: #f4ecdf; }
+.cozy-room-art { display: block; width: 100%; height: 100%; }
+.cozy-room-brand { position: absolute; left: 23px; top: 19px; color: #67785c; }
+.cozy-room-brand .milo-brand { gap: 7px; font-size: 23px; letter-spacing: -1px; }
+.cozy-room-brand .milo-brand svg { width: 27px; height: 27px; }
+.cozy-room .m-room-notice { top: 15px; right: 16px; width: 44px; height: 44px; padding: 11px; color: #8a8977; border-radius: 50%; }
+.cozy-room .m-room-notice:hover { background: #fffaf17a; color: #5b6c4e; }
+.cozy-room .cozy-room-cat { position: absolute; left: 49%; bottom: 17%; width: 44%; height: auto; padding: 0; border: 0; background: none; display: block; border-radius: 40%; cursor: pointer; }
+.cozy-room-cat .companion { width: 100%; height: auto; display: block; overflow: visible; }
+.cozy-room-cat .companion > circle:first-child,
+.cozy-room-cat .companion > ellipse:nth-child(2),
+.cozy-room-cat .companion > path:last-child { opacity: 0; }
+.cozy-room-cat .companion-head { transform-box: view-box; transform-origin: 120px 159px; animation: none; transform: rotate(-3deg); }
+.cozy-room-cat .companion-gaze { animation: none; transform: translate(0, 0); }
+.cozy-room-cat .companion-eyes { transform-box: view-box; transform-origin: 120px 108px; animation: cozy-cat-blink 8s 1.2s linear infinite; }
+.cozy-room-cat .companion-body { transform-origin: 120px 205px; animation: cozy-cat-breathe 6s ease-in-out infinite; }
+.cozy-room-cat .companion-tail { transform-origin: 169px 179px; animation: cozy-cat-tail 7s ease-in-out infinite; }
+.cozy-room-cat .companion-paw { animation: none; }
+.cozy-room-cat[data-petting=true] .companion-head { animation: cozy-cat-pet 1.5s ease-in-out both; }
+.cozy-room-cat[data-petting=true] .companion-gaze { animation: cozy-cat-look 1.5s ease-in-out both; }
+.cozy-pet-heart { position: absolute; right: 13%; top: 9%; width: 20px; height: 20px; opacity: 0; pointer-events: none; }
+.cozy-pet-heart[data-active=true] { animation: cozy-pet-heart 1.5s ease-out both; }
+.cozy-room-customize { position: absolute; bottom: 14px; right: 27px; display: flex; align-items: center; gap: 7px; min-height: 34px; color: #7c7466; text-decoration: none; font-size: 13px; padding: 4px 9px; border-radius: 12px; }
+.cozy-room-customize:hover { color: #4b6041; background: #fffaf19c; }
+.reference-home button:focus-visible, .reference-home a:focus-visible { outline: 2px solid #6a8059; outline-offset: 4px; }
+.reference-home .m-home-journal { background: #fffdf8; border: 1px solid #eae3d7; border-radius: 26px; padding: 19px 17px 17px; box-shadow: 0 5px 20px #70533304; }
+.reference-home .m-moments-title { font-size: 18px; font-weight: 650; letter-spacing: -.35px; margin: 0 0 10px; color: #514d41; }
+.reference-home .m-calendar { background: transparent; border-radius: 0; padding: 0 0 16px; margin: 0; border-bottom: 1px solid #eee8dd; }
+.reference-home .m-calendar-heading { margin: 0 0 8px; }
+.reference-home .m-calendar-heading button { color: #8a8678; height: 36px; }
+.reference-home .m-calendar-expand { font-size: 14px; gap: 7px; font-weight: 500; color: #777666; }
+.reference-home .m-calendar-grid { gap: 3px; row-gap: 4px; }
+.reference-home .m-calendar-grid .m-weekday { font-size: 12px; color: #999484; }
+.reference-home .m-calendar-grid button { font-size: 16px; width: 100%; height: 41px; color: #666354; border-radius: 14px; }
+.reference-home .m-calendar-grid button.selected { background: #e5ebdc; color: #45583b; font-weight: 700; }
+.reference-home .m-calendar-grid button.today:not(.selected) { outline-color: #c6d1b9; }
+.reference-home .m-calendar-grid button.has-record:after { background: #8c9e7a; bottom: 3px; }
+.reference-home .m-home-empty { min-height: 111px; display: flex; flex-direction: column; justify-content: center; gap: 8px; color: #9aa18a; font-size: 16px; padding: 15px 0 12px; }
+.reference-home .m-home-empty p { color: #969080; margin: 0; line-height: 1.5; }
+.reference-home .m-home-add { display: flex; justify-content: center; align-items: center; gap: 8px; min-height: 51px; border: 1px solid #dce4d2; border-radius: 16px; background: #edf1e5; color: #536449; font-size: 17px; font-weight: 650; text-decoration: none; transition: background .18s, transform .18s; }
+.reference-home .m-home-add:hover { background: #e3ead9; }
+.reference-home .m-home-add:active { transform: scale(.985); }
+.reference-home .m-entry { background: transparent; margin: 0; padding: 18px 0; border-radius: 0; border-bottom: 1px solid #eee8dd; font-size: 16px; }
+.reference-home .m-entry:last-of-type { margin-bottom: 14px; }
+.reference-home .m-entry-note, .reference-home .m-entry-food { overflow-wrap: anywhere; }
+.reference-home .m-bottom-nav { background: #fffdf8; border-top: 1px solid #eae4d9; }
+.reference-home .m-bottom-nav a { color: #9a9486; }
+.reference-home .m-bottom-nav a.active { color: #596d4c; }
+.reference-home .m-bottom-nav a.m-nav-chat { background: #758966; color: #fffdf8; box-shadow: 0 4px 12px #52633e18; }
+@keyframes cozy-cat-blink { 0%,38%,42%,100% { transform: scaleY(1); } 40% { transform: scaleY(.1); } }
+@keyframes cozy-cat-breathe { 0%,100% { transform: scaleY(1); } 50% { transform: scaleY(1.012); } }
+@keyframes cozy-cat-tail { 0%,100% { transform: rotate(-3deg); } 50% { transform: rotate(4deg); } }
+@keyframes cozy-cat-pet { 0%,100% { transform: rotate(-3deg); } 30% { transform: rotate(2deg); } 60% { transform: translateY(-1px) rotate(-9deg); } }
+@keyframes cozy-cat-look { 0%,100% { transform: translate(0,0); } 25%,70% { transform: translate(1px,-1px); } }
+@keyframes cozy-pet-heart { 0% { opacity: 0; transform: translateY(5px) scale(.6); } 25%,65% { opacity: 1; } 100% { opacity: 0; transform: translateY(-18px) scale(1.05); } }
+@media (max-width: 350px) {
+  .reference-home .m-body { padding-left: 16px; padding-right: 16px; }
+  .cozy-room { margin-left: -16px; margin-right: -16px; }
+  .reference-home .m-home-journal { padding: 17px 13px 14px; border-radius: 23px; }
+  .reference-home .m-calendar-grid { gap: 1px; }
+  .reference-home .m-calendar-grid button { height: 38px; }
+  .reference-home .m-home-empty { min-height: 99px; font-size: 15px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reference-home *, .reference-home *::before, .reference-home *::after { animation: none !important; transition: none !important; }
+  .cozy-pet-heart[data-active=true] { opacity: 1; }
+}

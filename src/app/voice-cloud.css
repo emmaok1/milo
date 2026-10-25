@@ -1,0 +1,67 @@
+.cloud-voice-page { position: relative; isolation: isolate; overflow: hidden; --voice-ink: #f6eddf; --voice-green: #789263; background: #55516d; }
+.cloud-voice-page[data-chat-mode=day] { --voice-ink: #46513f; background: #f4eadb; }
+.cloud-voice-page > .chat-backdrop { position: absolute; }
+.cloud-voice-page .voice-header { max-width: 750px; }
+.cloud-voice-page .voice-stage { margin-top: 10px; padding-top: 0; overflow: visible; }
+.cloud-call-scene { position: relative; width: min(100%,400px); aspect-ratio: 4 / 3; margin: 0 auto; }
+.voice-cloud-art { display: block; width: 100%; height: 100%; }
+.cloud-call-cat { position: absolute; width: 58%; top: 3%; left: 21%; }
+.cloud-call-cat .companion-call { display: block; width: 100%; height: auto; max-width: none; overflow: visible; }
+.cloud-call-cat .call-head-position { transform-origin: 120px 158px; transform: translate(0,-19px) scale(.94); transition: transform 1.1s cubic-bezier(.35,0,.2,1); }
+.cloud-call-cat .call-body { transform-origin: 121px 215px; transform: translate(0,-13px) scale(.7,1.05); transition: transform 1.1s cubic-bezier(.35,0,.2,1); }
+.cloud-call-cat .call-legs { transform-box: view-box; transform-origin: 120px 222px; opacity: 1; transition: transform 1.1s ease-in-out; }
+.cloud-call-cat .call-collar { transform: translateY(-8px); transition: transform 1s; }
+.cloud-call-cat .call-free-arm { transform-origin: 90px 178px; transition: transform 1s; }
+
+.cloud-call-cat .call-held-phone { opacity: 1; transform: none; }
+.cloud-call-cat .call-foot-left { transform: translateX(4px); transition: transform 1s; }.cloud-call-cat .call-foot-right { transform: translateX(-4px); transition: transform 1s; }
+.cloud-call-scene[data-seated=true] .call-head-position { transform: translate(0,5px) scale(1); }
+.cloud-call-scene[data-seated=true] .call-body { transform: translate(0,15px) scale(1.22,1.05); }
+.cloud-call-scene[data-seated=true] .call-legs { opacity: 1; transform: scaleY(.75); }
+.cloud-call-scene[data-seated=true] .call-collar { transform: translateY(2px); }
+.cloud-call-scene[data-seated=true] .call-free-arm { transform: translate(0,-3px) scaleY(.83); }
+.cloud-call-scene[data-seated=true] .call-held-phone { opacity: 1; transform: none; }
+
+.cloud-call-scene[data-seated=true] .call-foot-left { transform: translate(-7px,-1px); }.cloud-call-scene[data-seated=true] .call-foot-right { transform: translate(7px,-1px); }
+.cloud-call-cat .companion-head { animation: none; transform-origin: 120px 158px; }
+.cloud-call-cat .companion-gaze { animation: none; }
+.cloud-call-cat .companion-eyes { transform-box: fill-box; transform-origin: 50% 50%; animation: cloud-call-blink 7s linear infinite; }
+.cloud-call-cat .call-tail { transform-origin: 157px 203px; animation: cloud-call-tail 6s ease-in-out infinite; }
+.voice-listening .cloud-call-cat .companion-head { animation: cloud-call-listen 5.5s ease-in-out infinite; }
+.cloud-call-cat .call-phone-device { transform-box: view-box; transform-origin: 185px 153px; transform: translate(24px,63px) rotate(75deg); }
+.cloud-call-cat .call-receiver-arm, .cloud-call-cat .call-gripping-paw { transform-box: view-box; transform-origin: 155px 175px; transform: rotate(50deg); }
+.cloud-call-scene[data-seated=true] .call-phone-device { animation: cloud-phone-pickup 1.1s ease-in-out both; }
+.cloud-call-scene[data-seated=true] .call-receiver-arm, .cloud-call-scene[data-seated=true] .call-gripping-paw { animation: cloud-hand-pickup 1.1s ease-in-out both; }
+.cloud-call-cat .call-haunch-left { transform-box: view-box; transform-origin: 89px 217px; transform: translateX(10px) scale(.65,.8); transition: transform 1.1s ease-in-out; }
+.cloud-call-cat .call-haunch-right { transform-box: view-box; transform-origin: 153px 217px; transform: translateX(-10px) scale(.65,.8); transition: transform 1.1s ease-in-out; }
+.cloud-call-scene[data-seated=true] .call-haunch-left, .cloud-call-scene[data-seated=true] .call-haunch-right { transform: none; }
+.cloud-call-scene[data-ended=true] .call-phone-device { animation: cloud-phone-setdown 1.4s ease-in-out both; }
+.cloud-call-scene[data-ended=true] .call-receiver-arm, .cloud-call-scene[data-ended=true] .call-gripping-paw { animation: cloud-hand-rest 1.4s ease-in-out both; }
+.cloud-call-scene[data-ended=true] .companion-head { animation: cloud-call-goodbye 1.4s ease-in-out both; }
+.cloud-voice-page .voice-identity { margin-top: -8px; }
+.cloud-voice-page .voice-identity h1 { font-size: 29px; font-family: inherit; margin-top: 13px; }
+.cloud-voice-page .voice-identity p { color: var(--voice-ink); opacity: .8; }
+.cloud-voice-page .voice-pill { background: #fff9ec22; border-color: #e4d8c444; color: var(--voice-ink); }
+.cloud-voice-page[data-chat-mode=day] .voice-pill { background: #fffaf1aa; border-color: #d9cfbc; }
+.cloud-voice-page .voice-wave i { background: #d5ddc1; }
+.cloud-voice-page[data-chat-mode=day] .voice-wave i { background: #8fa77c; }
+.cloud-voice-page .voice-caption small { color: var(--voice-ink); opacity: .7; }
+.cloud-voice-page .voice-disclosure { color: var(--voice-ink); opacity: .75; }
+.cloud-voice-page .voice-setup .button { background: #647d4f; border-color: #647d4f; color: #fffdf4; border-radius: 25px; min-height: 53px; }
+.cloud-voice-page .voice-controls button { color: var(--voice-ink); }
+.cloud-voice-page .voice-controls button > span { background: #fff9eddd; color: #657753; }
+.cloud-voice-page .voice-controls .voice-hangup > span { background: #bd7d70; color: white; }
+.cloud-voice-page .voice-summary { background: #fff9ef; color: #454c3d; border-radius: 24px; padding: 23px; margin-top: 10px; }
+.cloud-voice-page .voice-summary[hidden] { display: none; }
+.cloud-voice-page .voice-transcript { background: #fff9ef; color: #454c3d; border-radius: 20px; padding: 18px; }
+@keyframes cloud-call-blink { 0%,38%,42%,100% { transform: scaleY(1); } 40% { transform: scaleY(.1); } }
+@keyframes cloud-call-tail { 0%,100% { transform: rotate(-3deg); } 50% { transform: rotate(4deg); } }
+@keyframes cloud-call-listen { 0%,55%,100% { transform: rotate(0); } 25%,40% { transform: rotate(-3deg); } }
+@keyframes cloud-phone-pickup { 0%,12% { transform: translate(24px,63px) rotate(75deg); } 42% { transform: translate(14px,35px) rotate(35deg); } 85%,100% { transform: none; } }
+@keyframes cloud-hand-pickup { 0%,12% { transform: rotate(50deg); } 42% { transform: translate(4px,8px) rotate(25deg); } 85%,100% { transform: none; } }
+@keyframes cloud-phone-setdown { 0%,15% { transform: translate(0,0) rotate(0); } 55% { transform: translate(15px,38px) rotate(30deg); } 85%,100% { transform: translate(24px,63px) rotate(75deg); } }
+@keyframes cloud-hand-rest { 0%,15% { transform: rotate(0); } 65%,100% { transform: rotate(28deg); } }
+@keyframes cloud-call-goodbye { 0%,100% { transform: rotate(0); } 40% { transform: translateY(3px) rotate(3deg); } }
+@media (max-width:350px) { .cloud-voice-page { padding-inline: 16px; }.cloud-voice-page .voice-stage { padding-inline: 0; }.cloud-voice-page .voice-header > span:nth-child(2) { font-size: 8px; letter-spacing: 1px; } }
+@media (max-height:700px) { .cloud-call-scene { max-width: 300px; }.cloud-voice-page .voice-stage { margin-top: 0; }.cloud-voice-page .voice-wave { margin: 8px; }.cloud-voice-page .voice-caption { min-height: 65px; } }
+@media (prefers-reduced-motion:reduce) { .cloud-call-scene * { animation: none !important; transition: none !important; }.cloud-call-scene[data-seated=true] .call-phone-device { transform: none; }.cloud-call-scene[data-seated=true] .call-receiver-arm, .cloud-call-scene[data-seated=true] .call-gripping-paw { transform: none; }.cloud-call-scene[data-ended=true] .call-phone-device { transform: translate(24px,63px) rotate(75deg); }.cloud-call-scene[data-ended=true] .call-receiver-arm, .cloud-call-scene[data-ended=true] .call-gripping-paw { transform: rotate(28deg); } }

@@ -1,0 +1,12 @@
+/* Black is reserved for reading content; original UI and brand colors remain. */
+p:not([role="alert"], [role="status"], .m-error, .error, .notice, .wg-time, .wg-pat, .wg-private, .s-version, .f-dialog-note, .m-entry-feelings),
+.chat-markdown :is(p, li, blockquote, td, th, pre, code, strong, em),
+.entry-body,
+.wg-bubble > p,
+.m-entry-note,
+.m-entry-food,
+input:not([type="button"], [type="submit"], [type="reset"], [type="checkbox"], [type="radio"], [type="range"], [type="color"]),
+textarea {
+  color: #000 !important;
+  -webkit-text-fill-color: #000 !important;
+}

@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Milo Inter";
+  src: url("/fonts/inter-variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+/* First check-in only: a conversation, with the cat grounded to the left. */
+.welcome-feeling { font-family: "Milo Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #fbf9f4; color: #303c30; padding: max(24px, env(safe-area-inset-top)) 24px max(16px, env(safe-area-inset-bottom)); }
+.welcome-feeling button, .welcome-feeling h1 { font-family: inherit; }
+.welcome-feeling .welcome-question { display: flex; flex-direction: column; min-height: calc(100svh - 64px); max-width: 420px; margin: 0 auto; }
+.welcome-conversation { position: relative; flex: 1 0 350px; min-height: 350px; max-height: 510px; width: 100%; margin-top: 0; }
+.welcome-feeling .welcome-speech-bubble { position: absolute; z-index: 2; top: max(32px, calc(50% - 152px)); right: 0; width: 72%; padding: 23px 22px; margin: 0; border: 1.5px solid #cbd5c1; border-radius: 34px; background: #fffefa; box-shadow: 0 5px 20px #36433204; text-align: left; animation: milo-bubble-in .5s ease both; }
+.welcome-speech-bubble::after { content: ""; position: absolute; bottom: -30px; left: 24px; width: 44px; height: 32px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='32' viewBox='0 0 44 32'%3E%3Cpath d='M1 0C2 11 0 22 1 29Q2 32 5 29C17 23 31 14 42 0' fill='%23fffefa' stroke='%23cbd5c1' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat; pointer-events: none; }
+.welcome-feeling .welcome-speech-bubble h1 { font-size: clamp(22px, 5.6vw, 27px); font-weight: 500; letter-spacing: -.55px; line-height: 1.38; }
+.welcome-speech-bubble .welcome-play { margin: 8px 0 -8px -8px; }
+.welcome-feeling-cat { position: absolute; left: -8px; bottom: 3px; width: 230px; padding: 0; background: transparent; border: 0; cursor: pointer; border-radius: 40%; -webkit-tap-highlight-color: transparent; }
+.welcome-feeling-cat .companion { width: 100%; height: auto; display: block; }
+.welcome-feeling-cat .companion > circle:first-child, .welcome-feeling-cat .companion > path:last-child { opacity: 0; }
+.welcome-feeling-cat .companion-head { animation: milo-listening-tilt 11s ease-in-out infinite; transform-origin: 120px 159px; }
+.welcome-feeling-cat .companion-gaze { animation: none; }
+.welcome-feeling-cat .companion-tail { animation-duration: 8s; }
+.welcome-feeling-cat[data-reaction=tilt] .companion-head { animation: milo-tap-tilt 1.1s ease-in-out both; }
+.welcome-feeling-cat[data-reaction=nod] .companion-head { animation: milo-answer-nod 1.1s ease-in-out both; }
+.welcome-feeling.is-speaking .welcome-feeling-cat .companion-voice-mouth { display: inline; transform-box: fill-box; transform-origin: center; animation: companion-speak .22s ease-in-out infinite alternate; }
+.welcome-feeling.is-speaking .welcome-feeling-cat .companion-smile { display: none; }
+.welcome-feeling .welcome-labels { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin-top: 10px; }
+.welcome-feeling .welcome-labels button { display: flex; align-items: center; justify-content: center; position: relative; min-height: 55px; padding: 13px 22px; border-radius: 17px; font-size: 16px; font-weight: 400; color: #53604e; background: #fffefa; border: 1px solid #e0e4d8; transition: background .18s, border-color .18s, transform .15s; }
+.welcome-feeling .welcome-labels button:last-child { grid-column: 1 / -1; justify-self: center; min-width: calc(50% - 6px); }
+.welcome-feeling .welcome-labels button:active { transform: scale(.97); }
+.welcome-feeling .welcome-labels button[aria-pressed=true] { background: #e8efdf; border-color: #849b73; color: #354b2e; }
+.welcome-option-check { position: absolute; left: 11px; opacity: 0; transform: scale(.6); transition: opacity .18s, transform .18s; }
+[aria-pressed=true] .welcome-option-check { opacity: 1; transform: scale(1); }
+.welcome-feeling .welcome-actions { margin-top: 30px; gap: 5px; padding-bottom: 0; }
+.welcome-feeling .welcome-continue { background: #3f593d; font-size: 16px; font-weight: 500; min-height: 54px; border-radius: 18px; }
+.welcome-feeling .welcome-skip { font-size: 14px; min-height: 44px; }
+@keyframes milo-listening-tilt { 0%,24%,60%,100% { transform: rotate(0); } 7%,15% { transform: rotate(-4deg); } 73%,81% { transform: rotate(2deg); } }
+@keyframes milo-tap-tilt { 0%,100% { transform: rotate(0); } 35%,65% { transform: rotate(-6deg); } }
+@keyframes milo-answer-nod { 0%,100% { transform: translateY(0) rotate(0); } 35% { transform: translateY(3px) rotate(2deg); } 65% { transform: translateY(-1px); } }
+@keyframes milo-bubble-in { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 350px) { .welcome-feeling { padding-left: 18px; padding-right: 18px; } .welcome-feeling-cat { width: 205px; } .welcome-feeling .welcome-speech-bubble { width: 76%; padding: 19px; } }
+@media (max-height: 720px) { .welcome-conversation { flex-basis: 335px; min-height: 335px; } .welcome-feeling-cat { width: 185px; } .welcome-feeling .welcome-speech-bubble { top: 10px; } .welcome-feeling .welcome-actions { margin-top: 20px; } }
+@media (prefers-reduced-motion: reduce) { .welcome-feeling *, .welcome-feeling *::after { animation: none !important; transition: none !important; } }
+
+/* Anchor the speech tail beside the mouth rather than above the head. */
+.welcome-feeling .welcome-speech-bubble { top: auto; bottom: 80px; width: 60%; padding: 20px 18px; border-radius: 30px; }
+.welcome-feeling .welcome-speech-bubble h1 { font-size: clamp(20px, 5.1vw, 24px); }
+.welcome-feeling .welcome-speech-bubble::after { bottom: 12px; left: -31px; width: 33px; height: 27px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='33' height='27' viewBox='0 0 33 27'%3E%3Cpath d='M33 1C22 8 11 18 2 22Q0 24 4 24C16 26 25 25 33 25' fill='%23fffefa' stroke='%23cbd5c1' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.welcome-feeling-cat { left: -30px; }
+@media (max-width: 350px) { .welcome-feeling .welcome-speech-bubble { width: 59%; padding: 18px 15px; } }
+@media (max-height: 720px) { .welcome-feeling .welcome-speech-bubble { top: auto; bottom: 62px; } }
+
+/* Restore the first check-in scene, with a clear upper/lower page rhythm. */
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-question { min-height: calc(100svh - 48px); }
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-conversation { flex: 0 0 370px; min-height: 370px; max-height: none; margin-top: 4px; }
+.welcome-feeling-scene { position: absolute; left: 0; bottom: 0; width: 100%; height: 100px; }
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-feeling-cat { left: -6px; bottom: 13px; width: 210px; z-index: 1; }
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-speech-bubble { top: 24px; bottom: auto; right: 0; width: 70%; padding: 22px; border-radius: 32px; }
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-speech-bubble h1 { font-size: clamp(22px, 5.5vw, 26px); line-height: 1.4; }
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-speech-bubble::after { display: none; }
+.welcome-feeling-connection { position: absolute; width: 100px; height: 140px; bottom: -138px; left: 38px; pointer-events: none; }
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-labels { margin-top: 30px; }
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-actions { margin-top: auto; padding-top: 28px; }
+@media (max-width: 350px) {
+  .welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-conversation { flex-basis: 350px; min-height: 350px; }
+  .welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-feeling-cat { width: 190px; left: -8px; }
+  .welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-speech-bubble { width: 73%; padding: 19px; top: 14px; }
+  .welcome-feeling-connection { width: 80px; height: 106px; bottom: -104px; left: 38px; }
+}
+@media (min-width: 700px) {
+  .welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-conversation { margin-top: 20px; flex-basis: 390px; min-height: 390px; }
+  .welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-feeling-cat { width: 230px; }
+  .welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-speech-bubble { top: 32px; }
+}
+
+/* Eating scene: keep the face in front and the speech tail in the open gap. */
+.welcome-eating .welcome-question { min-height: calc(100svh - 48px); }
+.welcome-eating .welcome-conversation { flex: 0 0 350px; min-height: 350px; max-height: none; }
+.welcome-eating .welcome-speech-bubble { top: 4px; bottom: auto; left: 0; right: auto; width: 88%; padding: 20px; border: 1px solid #c3cdb8; border-radius: 32px; z-index: 2; }
+.welcome-eating .welcome-speech-bubble::after { display: none; }
+.welcome-eating .welcome-speech-bubble h1 { font-size: clamp(19px, 5vw, 25px); }
+.welcome-eating .welcome-speech-bubble h1 span { display: block; white-space: nowrap; }
+.welcome-bubble-connection { position: absolute; width: 65px; height: 43px; bottom: -41px; right: 125px; pointer-events: none; }
+.welcome-eating .welcome-feeling-cat { left: auto; right: 0; bottom: 0; width: 100%; max-width: 340px; z-index: 3; animation: milo-dining-enter .65s ease-out both; border-radius: 24px; }
+.welcome-eating .welcome-feeling-cat .companion { transform: none; overflow: visible; }
+.welcome-eating .companion-body { transform-origin: 120px 220px; animation: milo-dining-breathe 6.8s ease-in-out infinite; }
+.welcome-eating .companion-head { transform-box: view-box; transform-origin: 120px 158px; animation: milo-dining-head 4s ease-in-out both; }
+.welcome-eating .companion-gaze { transform-box: view-box; animation: milo-dining-gaze 4s ease-in-out both; }
+.welcome-eating .companion-eyes { transform-box: view-box; transform-origin: 120px 108px; animation: milo-dining-blink 7s 4s linear infinite; }
+.welcome-eating .companion-paw { transform-box: view-box; transform-origin: 86px 185px; animation: milo-dining-lift 4s ease-in-out both; }
+.welcome-eating .dining-tail { transform-origin: 166px 203px; animation: milo-dining-tail 6.8s .4s ease-in-out infinite; }
+.welcome-eating .dining-bite-mouth { transform-box: fill-box; transform-origin: center; opacity: 0; animation: milo-dining-bite 4s linear both; }
+.welcome-eating .companion-smile { animation: milo-dining-chew-smile 4s linear both; }
+.welcome-eating .dining-fish-whole { animation: milo-fish-whole 4s step-end both; }
+.welcome-eating .dining-fish-bitten { animation: milo-fish-bitten 4s step-end both; }
+.welcome-eating .welcome-feeling-cat[data-reaction=tilt] .companion-head { animation: milo-dining-hello 1.1s ease-in-out both; }
+.welcome-eating .welcome-feeling-cat[data-reaction=nod] .companion-head { animation: milo-dining-nod 1.1s ease-in-out both; }
+.welcome-eating .welcome-labels { margin-top: 20px; }
+.welcome-eating .welcome-labels button { font-size: 18px; padding: 14px 24px; min-height: 58px; }
+.welcome-eating .welcome-labels button:last-child { grid-column: 1 / -1; width: 100%; justify-self: stretch; }
+.welcome-eating .welcome-actions { margin-top: auto; padding-top: 28px; }
+.welcome-feeling-cat:focus-visible { outline: 2px solid #6b805d; outline-offset: 3px; }
+@keyframes milo-dining-enter { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes milo-dining-breathe { 0%,100% { transform: scaleY(1); } 50% { transform: scaleY(1.018); } }
+/* One sequence: inspect, bite, chew, lower the fish and meet the viewer. */
+@keyframes milo-dining-head {
+  0%,20% { transform: translate(-2px,3px) rotate(-3deg); }
+  30%,38% { transform: translate(-3px,5px) rotate(-4deg); }
+  44% { transform: translate(-2px,3px) rotate(-2deg); }
+  68%,100% { transform: translate(0,-2px) rotate(0); }
+}
+@keyframes milo-dining-gaze { 0%,44% { transform: translate(-3px,4px); } 65%,100% { transform: translate(0,-1px); } }
+@keyframes milo-dining-lift {
+  0%,17% { transform: translate(-5px,10px) rotate(-8deg); }
+  27%,41% { transform: translate(0,0) rotate(0); }
+  72%,100% { transform: translate(-22px,29px) rotate(-15deg); }
+}
+@keyframes milo-dining-bite {
+  0%,21%,48%,100% { opacity: 0; transform: scaleY(.2); }
+  26%,29% { opacity: 1; transform: scaleY(1.15); }
+  33% { opacity: 1; transform: scaleY(.25); }
+  37% { opacity: 1; transform: scaleY(.65); }
+  41% { opacity: 1; transform: scaleY(.2); }
+  45% { opacity: 1; transform: scaleY(.45); }
+}
+@keyframes milo-dining-chew-smile { 0%,21%,48%,100% { opacity: 1; } 22%,47% { opacity: 0; } }
+@keyframes milo-fish-whole { 0%,34% { opacity: 1; } 35%,100% { opacity: 0; } }
+@keyframes milo-fish-bitten { 0%,34% { opacity: 0; } 35%,100% { opacity: 1; } }
+@keyframes milo-dining-blink { 0%,38%,41%,100% { transform: scaleY(1); } 39.5% { transform: scaleY(.12); } }
+@keyframes milo-dining-tail { 0%,100% { transform: rotate(-3deg); } 50% { transform: rotate(5deg); } }
+@keyframes milo-dining-hello { 0%,100% { transform: translate(0,-2px) rotate(1deg); } 50% { transform: translate(1px,-3px) rotate(5deg); } }
+@keyframes milo-dining-nod { 0%,100% { transform: translate(0,-2px) rotate(1deg); } 40% { transform: translate(0,3px) rotate(-2deg); } 75% { transform: translate(0,-3px) rotate(1deg); } }
+@keyframes milo-dining-listen { 0%,100% { transform: translate(0,-2px) rotate(1deg); } 50% { transform: translate(0,-3px) rotate(3deg); } }
+@media (max-width: 350px) {
+ .welcome-eating .welcome-conversation { flex-basis: 320px; min-height: 320px; }
+ .welcome-eating .welcome-speech-bubble { width: 94%; padding: 18px 16px; }
+ .welcome-eating .welcome-feeling-cat { width: 100%; bottom: 0; }
+ .welcome-eating .welcome-bubble-connection { right: 100px; height: 38px; bottom: -36px; }
+ .welcome-eating .welcome-labels button { font-size: 17px; padding: 14px 24px; }
+}
+@media (min-width: 700px) { .welcome-eating .welcome-conversation { flex-basis: 370px; min-height: 370px; } }
+
+/* Support: three clear choices below a quiet companion scene. */
+.welcome-support .welcome-question { min-height: calc(100svh - 48px); }
+.welcome-support .welcome-conversation { flex: 0 0 335px; min-height: 335px; max-height: none; }
+.welcome-support-scene { position: absolute; bottom: 0; width: 100%; height: 100px; }
+.welcome-support .welcome-speech-bubble { top: 24px; bottom: auto; left: 0; right: auto; width: 66%; padding: 22px; border-radius: 32px; }
+.welcome-support .welcome-speech-bubble h1 { font-size: clamp(24px, 6vw, 28px); line-height: 1.35; }
+.welcome-support .welcome-speech-bubble::after { display: none; }
+.welcome-support-connection { position: absolute; width: 90px; height: 100px; right: 0; bottom: -98px; pointer-events: none; }
+.welcome-support .welcome-feeling-cat { left: auto; right: -8px; bottom: 10px; width: 210px; z-index: 1; }
+.welcome-support .companion-head { animation: none; transform: rotate(-2deg); }
+.welcome-support .companion-gaze { animation: none; }
+.welcome-support .companion-paw { animation: none; transform: none; }
+.welcome-support .companion-tail { animation: none; transform: rotate(0); transform-origin: 169px 179px; transition: transform .75s cubic-bezier(.22,.61,.36,1); }
+.welcome-support.is-speaking .companion-tail { transform: rotate(-38deg); }
+.welcome-support .welcome-feeling-cat[data-reaction=tilt] .companion-head { animation: milo-tap-tilt 1.1s ease-in-out both; }
+.welcome-support .welcome-feeling-cat[data-reaction=nod] .companion-head { animation: milo-answer-nod 1.1s ease-in-out both; }
+.welcome-support .welcome-labels { grid-template-columns: 1fr; gap: 13px; margin-top: 26px; }
+.welcome-support .welcome-labels button, .welcome-support .welcome-labels button:last-child { width: 100%; justify-self: stretch; min-height: 62px; text-align: left; justify-content: flex-start; padding: 16px 22px 16px 39px; font-size: 18px; line-height: 1.45; border-radius: 19px; }
+.welcome-support .welcome-actions { margin-top: auto; padding-top: 28px; }
+@media (max-width: 350px) { .welcome-support .welcome-conversation { flex-basis: 320px; min-height: 320px; } .welcome-support .welcome-feeling-cat { width: 190px; } .welcome-support .welcome-speech-bubble { padding: 19px; width: 69%; top: 18px; } .welcome-support-connection { height: 112px; bottom: -110px; right: 14px; } .welcome-support .welcome-labels button { font-size: 17px; } }
+
+/* Start upright, then lean left with the spoken question and hold the pose. */
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-feeling-cat .companion-head {
+  animation: none;
+  transform: rotate(0);
+  transition: transform 1.35s cubic-bezier(.22,.61,.36,1);
+}
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-feeling-cat[data-curious=true] .companion-head {
+  transform: rotate(-8deg);
+}
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-feeling-cat[data-curious=true][data-reaction=tilt] .companion-head {
+  animation: milo-feelings-held-tilt 1.1s ease-in-out both;
+}
+.welcome-feeling:not(.welcome-eating):not(.welcome-support) .welcome-feeling-cat[data-curious=true][data-reaction=nod] .companion-head {
+  animation: milo-feelings-held-nod 1.1s ease-in-out both;
+}
+@keyframes milo-feelings-held-tilt {
+  0%,100% { transform: rotate(-8deg); }
+  35%,65% { transform: rotate(-11deg); }
+}
+@keyframes milo-feelings-held-nod {
+  0%,100% { transform: rotate(-8deg); }
+  40% { transform: translateY(3px) rotate(-6deg); }
+  70% { transform: translateY(-1px) rotate(-8deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .welcome-eating .companion-head { transform: translate(0,-2px); }
+  .welcome-eating .companion-gaze { transform: translate(0,-1px); }
+  .welcome-eating .companion-paw { transform: translate(-22px,29px) rotate(-15deg); }
+  .welcome-eating .dining-bite-mouth, .welcome-eating .dining-fish-whole { opacity: 0; }
+  .welcome-eating .dining-fish-bitten { opacity: 1; }
+}
+
+/* Separate the cream-white companion from the page, without changing black-cat scenes. */
+.welcome-home:has(.companion-white-cat) { background: #e9eee3; }
+.welcome-support:has(.companion-white-cat) .welcome-support-scene > path:first-of-type { fill: #bccbaa; }

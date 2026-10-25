@@ -1,0 +1,302 @@
+/* Milo login only. Other app pages keep their existing layouts. */
+.milo-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #3f593d;
+  line-height: 1;
+  white-space: nowrap;
+}
+.milo-brand > svg {
+  display: block;
+  width: 34px;
+  height: 34px;
+  flex: none;
+}
+.milo-brand > span {
+  font-family: Nunito, ui-rounded, system-ui, sans-serif;
+  font-size: 32px;
+  font-weight: 850;
+  letter-spacing: -1.8px;
+}
+.milo-login {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  background: #fbf9f4;
+  color: #29332c;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.milo-login-header {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 30px 40px 12px;
+  flex-shrink: 0;
+}
+.milo-login-header > a {
+  display: inline-flex;
+  text-decoration: none;
+}
+.milo-login .auth-panel {
+  flex: 1;
+  width: 100%;
+  padding: 24px 24px 64px;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+}
+.milo-login .auth-form {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.milo-login-cat {
+  width: 122px;
+  height: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 23px;
+}
+.milo-login-cat > .companion.large {
+  width: 122px;
+  height: 122px;
+  max-width: none;
+}
+.milo-login-cat .companion-cat * {
+  animation: none !important;
+}
+.milo-login-cat .companion-cat .companion-eyes {
+  animation: cat-natural-blink 7.4s linear infinite !important;
+}
+.milo-login .auth-form h1 {
+  font-family: inherit;
+  text-align: center;
+  font-size: 31px;
+  font-weight: 550;
+  letter-spacing: -1.1px;
+  line-height: 1.2;
+  margin: 0 0 36px;
+  color: #29332c;
+}
+.milo-login .auth-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.milo-login .auth-form label {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #4a5548;
+  margin: 0 0 18px;
+}
+.milo-login .auth-form label input {
+  width: 100%;
+  min-height: 54px;
+  border: 1px solid #dfe3d7;
+  border-radius: 15px;
+  background: #fffefa;
+  color: #29332c;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 14px 16px;
+  margin: 8px 0 0;
+  box-shadow: none;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+.milo-login .auth-form input::placeholder {
+  color: #92988a;
+  font-weight: 400;
+}
+.milo-login .auth-form input:focus-visible {
+  outline: 0;
+  border-color: #728667;
+  box-shadow: 0 0 0 3px #72866718;
+}
+.milo-login .password-input {
+  position: relative;
+}
+.milo-login .password-input input {
+  padding-right: 54px;
+}
+.milo-login .password-input .icon {
+  position: absolute;
+  right: 8px;
+  top: 14px;
+  width: 40px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: #77816c;
+}
+.milo-login-forgot {
+  text-align: right;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: -3px 2px 24px;
+}
+.milo-login-forgot a {
+  color: #66755b;
+  text-decoration: none;
+}
+.milo-login-forgot a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.milo-login .button.primary {
+  background: #3f593d;
+  border: 1px solid #3f593d;
+  color: #fffefa;
+  min-height: 54px;
+  border-radius: 16px;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 550;
+  letter-spacing: 0.1px;
+  padding: 14px 20px;
+  box-shadow: none;
+  transition:
+    background 0.15s,
+    transform 0.15s;
+}
+.milo-login .button.primary:hover:not(:disabled) {
+  background: #334b32;
+  border-color: #334b32;
+}
+.milo-login .button.primary:active:not(:disabled) {
+  transform: scale(0.99);
+}
+.milo-login .button.primary:disabled {
+  opacity: 0.65;
+}
+.milo-login .auth-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  gap: 0;
+}
+.milo-login .auth-links a {
+  color: #68715f;
+  text-decoration: none;
+}
+.milo-login .auth-links a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.milo-login-privacy {
+  margin: 23px auto 0;
+  max-width: 340px;
+  text-align: center;
+  color: #7b8473;
+  font-size: 11px;
+  line-height: 1.7;
+}
+.milo-login-privacy summary {
+  display: inline-block;
+  cursor: pointer;
+  list-style: none;
+  min-height: 26px;
+  padding: 3px 10px;
+}
+.milo-login-privacy summary::-webkit-details-marker {
+  display: none;
+}
+.milo-login-privacy[open] summary {
+  color: #4f6447;
+}
+.milo-login-privacy p {
+  margin: 9px 0 0;
+  font-size: 11px;
+  line-height: 1.7;
+  text-align: left;
+  padding: 12px 14px;
+  background: #f0f1e8;
+  border-radius: 12px;
+}
+.milo-login .error {
+  font-size: 13px;
+  border-radius: 12px;
+  margin: 0 0 16px;
+  line-height: 1.6;
+}
+.milo-login .notice {
+  font-size: 13px;
+  border-radius: 12px;
+}
+@media (max-width: 600px) {
+  .milo-login-header {
+    padding: 27px 25px 10px;
+  }
+  .milo-login .auth-panel {
+    padding: 16px 27px 45px;
+  }
+  .milo-login .auth-form {
+    max-width: 350px;
+  }
+  .milo-login .auth-form h1 {
+    font-size: 29px;
+    letter-spacing: -0.9px;
+    margin-bottom: 34px;
+  }
+  .milo-login-cat {
+    margin-bottom: 21px;
+  }
+  .milo-brand > span {
+    font-size: 31px;
+  }
+  .milo-brand > svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (max-height: 700px) {
+  .milo-login-header {
+    padding-top: 20px;
+  }
+  .milo-login .auth-panel {
+    padding-top: 10px;
+    padding-bottom: 28px;
+  }
+  .milo-login-cat,
+  .milo-login-cat > .companion.large {
+    width: 96px;
+    height: 96px;
+  }
+  .milo-login-cat {
+    margin-bottom: 17px;
+  }
+  .milo-login .auth-form h1 {
+    margin-bottom: 25px;
+  }
+  .milo-login .auth-form label {
+    margin-bottom: 15px;
+  }
+  .milo-login .auth-links {
+    margin-top: 20px;
+  }
+  .milo-login-privacy {
+    margin-top: 16px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .milo-login-cat .companion-cat .companion-eyes {
+    animation: none !important;
+  }
+  .milo-login * {
+    transition: none !important;
+  }
+}

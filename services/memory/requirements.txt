@@ -1,0 +1,6 @@
+mem0ai==1.0.0
+fastapi==0.119.1
+uvicorn==0.38.0
+anthropic==2.3.0
+sentence-transformers==5.1.2
+qdrant-client==1.15.1
