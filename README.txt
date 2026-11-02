@@ -1,0 +1,1 @@
+Local project snapshot before Milo frontend redesign. Includes source, dependencies, build files, server-only environment files and local assets/data. Keep this directory private. External Supabase and memory-service database volumes are not snapshots of this local project folder. To restore, stop the app and copy the haven folder back to the workspace.

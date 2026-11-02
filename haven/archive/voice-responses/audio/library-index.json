@@ -1,0 +1,3498 @@
+[
+  {
+    "id": "001",
+    "intent": "food_choice",
+    "category": "eating_related",
+    "responseText": "A lot of choices can feel like too much. What’s making it hard to choose?",
+    "exampleUtterances": [
+      "I can't decide what to eat."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "001"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "002",
+    "intent": "nothing_appealing",
+    "category": "eating_related",
+    "responseText": "Does nothing sound good, or is eating itself feeling hard?",
+    "exampleUtterances": [
+      "Nothing sounds appealing to eat."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "002"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "003",
+    "intent": "afraid_to_eat",
+    "category": "eating_related",
+    "responseText": "You want to eat, and something’s holding you back. What feels scary?",
+    "exampleUtterances": [
+      "I want to eat but I'm scared."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "003"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "004",
+    "intent": "delaying_eating",
+    "category": "eating_related",
+    "responseText": "What comes up when you think about getting something to eat?",
+    "exampleUtterances": [
+      "I keep delaying eating."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "004"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "005",
+    "intent": "next_meal_worry",
+    "category": "eating_related",
+    "responseText": "It sounds like the next meal is already weighing on you. What’s on your mind?",
+    "exampleUtterances": [
+      "I'm worried about my next meal."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "005"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "006",
+    "intent": "food_shopping",
+    "category": "eating_related",
+    "responseText": "What was going through your mind while you were choosing?",
+    "exampleUtterances": [
+      "Food shopping felt difficult today."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "006"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "007",
+    "intent": "hard_to_start_eating",
+    "category": "eating_related",
+    "responseText": "We can take a moment. Want to tell me what’s making it hard?",
+    "exampleUtterances": [
+      "I'm finding it hard to start eating."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "007"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "008",
+    "intent": "eating_alone",
+    "category": "eating_related",
+    "responseText": "I can keep you company here. Would a little conversation help?",
+    "exampleUtterances": [
+      "I'm eating alone and want some company."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "i(?: am|'m) eating alone and (?:i )?(?:want|would like|need) (?:some )?company"
+      ],
+      "requiredPhrases": [
+        [
+          "eating alone"
+        ],
+        [
+          "company"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "008"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "009",
+    "intent": "eating_around_others",
+    "category": "eating_related",
+    "responseText": "Is it being watched, something people say, or something else?",
+    "exampleUtterances": [
+      "Eating around others makes me uncomfortable."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "009"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "010",
+    "intent": "changed_meal_plans",
+    "category": "eating_related",
+    "responseText": "That change sounds unsettling. Which part is bothering you most?",
+    "exampleUtterances": [
+      "My meal plans changed and I'm upset."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "010"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "011",
+    "intent": "anxious_while_eating",
+    "category": "eating_related",
+    "responseText": "That sounds uncomfortable. Want some company, or do you want to talk about it?",
+    "exampleUtterances": [
+      "I'm anxious while eating right now."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "011"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "012",
+    "intent": "intrusive_eating_thoughts",
+    "category": "eating_related",
+    "responseText": "That’s a lot to deal with while eating. What are those thoughts saying?",
+    "exampleUtterances": [
+      "I'm having intrusive thoughts while eating."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "012"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "013",
+    "intent": "watched_while_eating",
+    "category": "eating_related",
+    "responseText": "Feeling watched can make things harder. Did something happen, or is it a worry right now?",
+    "exampleUtterances": [
+      "I feel watched while I'm eating."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "013"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "014",
+    "intent": "request_mealtime_chat",
+    "category": "eating_related",
+    "responseText": "Of course. Want to tell me about something you watched or listened to lately?",
+    "exampleUtterances": [
+      "Stay with me while I eat."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "(?:please )?(?:stay with me|keep me company|talk to me) while i (?:eat|am eating|'m eating)"
+      ],
+      "requiredPhrases": [
+        [
+          "while i"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "014"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "015",
+    "intent": "avoid_food_topic",
+    "category": "eating_related",
+    "responseText": "Absolutely. What kind of music have you been into lately?",
+    "exampleUtterances": [
+      "I don't want to talk about food."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "i (?:don't|do not) want to (?:talk|chat) about food(?: (?:right )?now)?"
+      ],
+      "requiredPhrases": [
+        [
+          "food"
+        ],
+        [
+          "don't",
+          "do not"
+        ]
+      ],
+      "priority": 100,
+      "variants": [
+        "015"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "offer_topic_change",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "016",
+    "intent": "quiet_company",
+    "category": "eating_related",
+    "responseText": "Okay. I’ll leave some quiet. You can speak whenever you feel like it.",
+    "exampleUtterances": [
+      "I just want quiet company."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "(?:i (?:just )?(?:want|need|would like)|can (?:you|we) (?:just )?have) (?:some )?quiet company",
+        "(?:please )?(?:sit|stay) (?:quietly )?with me (?:in silence|without talking)"
+      ],
+      "requiredPhrases": [
+        [
+          "quiet",
+          "silence",
+          "without talking"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "016"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": true,
+    "action": "wait_for_user",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {
+        "7d444628-dd13-442b-b687-71a6baf0c07e:english-v1": "25497f2a5cccf97ee68e20cef9b46e460640b1017e4e507ea83c0e7042977a08",
+        "ca566b43-944e-4474-b494-7d9f0695f307:english-v1": "d7c2f1f70fbd04a8a560a66f28776aa89d0310810e306e25cc05dc1c73db2419"
+      }
+    }
+  },
+  {
+    "id": "017",
+    "intent": "emotional_difficulty_during_meal",
+    "category": "eating_related",
+    "responseText": "We can slow the conversation down. What’s coming up for you?",
+    "exampleUtterances": [
+      "I'm having a difficult time emotionally during this meal."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "017"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "018",
+    "intent": "lighter_topic",
+    "category": "eating_related",
+    "responseText": "Sure. Tell me about a show you could watch over and over.",
+    "exampleUtterances": [
+      "Let's change to a lighter topic."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "(?:let's|can we|please) (?:change|switch) (?:to )?(?:a )?lighter topic"
+      ],
+      "requiredPhrases": [
+        [
+          "lighter topic"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "018",
+        "097"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "offer_topic_change",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "019",
+    "intent": "self_conscious_eating",
+    "category": "eating_related",
+    "responseText": "What makes it feel strange to you?",
+    "exampleUtterances": [
+      "I feel self-conscious about eating."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "019"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "020",
+    "intent": "comments_on_eating",
+    "category": "eating_related",
+    "responseText": "That sounds uncomfortable. What did they say?",
+    "exampleUtterances": [
+      "Someone commented on my eating and it hurt."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "020"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "021",
+    "intent": "post_meal_guilt",
+    "category": "eating_related",
+    "responseText": "That guilt sounds heavy. What are you saying to yourself right now?",
+    "exampleUtterances": [
+      "I feel guilty after eating."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "i (?:feel|am feeling|'m feeling) (?:really |so )?guilty (?:after eating|about (?:what i ate|eating))(?: (?:right )?now)?"
+      ],
+      "requiredPhrases": [
+        [
+          "i feel",
+          "i am feeling",
+          "i'm feeling"
+        ],
+        [
+          "guilty"
+        ],
+        [
+          "eating",
+          "what i ate"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "021"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {
+        "47c38ca4-5f35-497b-b1a3-415245fb35e1:english-v1": "fb750ba2cf5fbb047d3a3d594edfabc2abef963e3e5b4976d193e89a8e802767",
+        "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4:english-v1": "ee2e55f18ebcb6eda4d21fa49b516225f860f912dc89d332f8c936b352b5c6d5"
+      }
+    }
+  },
+  {
+    "id": "022",
+    "intent": "food_regret",
+    "category": "eating_related",
+    "responseText": "What about it is bringing up regret?",
+    "exampleUtterances": [
+      "I regret what I ate."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "022"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "023",
+    "intent": "worried_about_amount",
+    "category": "eating_related",
+    "responseText": "It sounds like you’re worried about what you ate. Want to tell me more?",
+    "exampleUtterances": [
+      "I'm worried about how much I ate."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "023"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "024",
+    "intent": "feeling_out_of_control",
+    "category": "eating_related",
+    "responseText": "That sounds frightening. What did ‘out of control’ feel like for you?",
+    "exampleUtterances": [
+      "I felt out of control while eating."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "024"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "025",
+    "intent": "anger_at_self_after_eating",
+    "category": "eating_related",
+    "responseText": "You sound really upset with yourself. What’s the hardest thought right now?",
+    "exampleUtterances": [
+      "I'm angry at myself after eating."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "025"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "026",
+    "intent": "post_meal_rumination",
+    "category": "eating_related",
+    "responseText": "It sounds like your mind keeps returning to it. What keeps coming up?",
+    "exampleUtterances": [
+      "I keep thinking about what I ate."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "026"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "027",
+    "intent": "seeking_food_reassurance",
+    "category": "eating_related",
+    "responseText": "It sounds like you’re looking for some reassurance. What’s worrying you about it?",
+    "exampleUtterances": [
+      "I need reassurance about what I ate."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "027"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "028",
+    "intent": "meal_ruined_day",
+    "category": "eating_related",
+    "responseText": "This moment feels really big right now. What happened that made it feel that way?",
+    "exampleUtterances": [
+      "This meal feels like it ruined my day."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "028"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "029",
+    "intent": "withdrawing_after_eating",
+    "category": "eating_related",
+    "responseText": "Would some quiet feel better, or is there something you don’t want people to notice?",
+    "exampleUtterances": [
+      "I want to hide away after eating."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "029"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "030",
+    "intent": "crying_after_eating",
+    "category": "eating_related",
+    "responseText": "You don’t have to hold the tears back here. We can pause, or you can tell me what hurts.",
+    "exampleUtterances": [
+      "I'm crying after eating."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "030"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "acknowledge_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "031",
+    "intent": "difficult_body_image_day",
+    "category": "eating_related",
+    "responseText": "I’m sorry today feels so hard. Did something bring those feelings up?",
+    "exampleUtterances": [
+      "I'm having a difficult body image day."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "031"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "032",
+    "intent": "appearance_comparison",
+    "category": "eating_related",
+    "responseText": "Those comparisons sound painful. What happened just before they started?",
+    "exampleUtterances": [
+      "I keep comparing my appearance to others."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "032"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "033",
+    "intent": "mirror_distress",
+    "category": "eating_related",
+    "responseText": "That sounds like a rough moment. Would you like to talk about it, or change the subject?",
+    "exampleUtterances": [
+      "Looking in the mirror upset me."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "033"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "034",
+    "intent": "clothing_distress",
+    "category": "eating_related",
+    "responseText": "I’m sorry getting dressed felt so hard. What went through your mind?",
+    "exampleUtterances": [
+      "Getting dressed felt upsetting."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "034"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "035",
+    "intent": "body_comments",
+    "category": "eating_related",
+    "responseText": "You didn’t ask for that comment. How did it land with you?",
+    "exampleUtterances": [
+      "Someone made a comment about my body."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "035"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "036",
+    "intent": "social_media_body_distress",
+    "category": "eating_related",
+    "responseText": "What did you see that stayed with you?",
+    "exampleUtterances": [
+      "Social media made me feel bad about my body."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "036"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "037",
+    "intent": "appearance_and_worth",
+    "category": "eating_related",
+    "responseText": "It sounds like appearance is taking up a lot of space today. What else matters to you?",
+    "exampleUtterances": [
+      "I feel like my worth depends on my appearance."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "037"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "038",
+    "intent": "body_checking",
+    "category": "eating_related",
+    "responseText": "What are you hoping to find out when you check?",
+    "exampleUtterances": [
+      "I keep checking my body."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "038"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "039",
+    "intent": "body_topic_boundary",
+    "category": "eating_related",
+    "responseText": "Of course. We can leave that alone. What would you rather talk about?",
+    "exampleUtterances": [
+      "I don't want to talk about my body."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "i (?:don't|do not) want to (?:talk|chat) about my body(?: (?:right )?now)?"
+      ],
+      "requiredPhrases": [
+        [
+          "my body"
+        ],
+        [
+          "don't",
+          "do not"
+        ]
+      ],
+      "priority": 100,
+      "variants": [
+        "039"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "offer_topic_change",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "040",
+    "intent": "feeling_misunderstood",
+    "category": "eating_related",
+    "responseText": "It sounds lonely to carry this without feeling understood. What do people tend to miss?",
+    "exampleUtterances": [
+      "I feel misunderstood about this."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "040"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "041",
+    "intent": "hard_to_explain",
+    "category": "eating_related",
+    "responseText": "You can start with one small part. It doesn’t need to come out neatly.",
+    "exampleUtterances": [
+      "I don't know how to explain how I feel."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "i (?:don't|do not) know how to explain (?:how i feel|what i(?: am|'m) feeling)"
+      ],
+      "requiredPhrases": [
+        [
+          "explain"
+        ],
+        [
+          "i feel",
+          "feeling"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "041"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "acknowledge_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "042",
+    "intent": "problem_not_serious_enough",
+    "category": "eating_related",
+    "responseText": "You don’t have to prove it’s serious enough. If it’s troubling you, we can talk about it.",
+    "exampleUtterances": [
+      "I worry my problem isn't serious enough."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "042"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "acknowledge_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "043",
+    "intent": "fear_of_judgment",
+    "category": "eating_related",
+    "responseText": "You don’t need to defend yourself here. What are you worried someone might say?",
+    "exampleUtterances": [
+      "I'm afraid of being judged."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "043"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "044",
+    "intent": "feeling_like_failure",
+    "category": "eating_related",
+    "responseText": "That sounds like a painful way to see yourself. What happened?",
+    "exampleUtterances": [
+      "I feel like a failure."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "044"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "045",
+    "intent": "discouraged_about_progress",
+    "category": "eating_related",
+    "responseText": "It sounds discouraging. What’s been making progress feel far away?",
+    "exampleUtterances": [
+      "I'm discouraged about my progress."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "045"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "046",
+    "intent": "difficult_day",
+    "category": "eating_related",
+    "responseText": "I’m sorry it’s been such a hard day. Which part has been the hardest?",
+    "exampleUtterances": [
+      "I've had a difficult day."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "046"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "047",
+    "intent": "listening_without_advice",
+    "category": "eating_related",
+    "responseText": "Got it. I’ll hold off on advice. Tell me what happened.",
+    "exampleUtterances": [
+      "Please just listen. I don't want advice."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "(?:please )?just listen(?: i (?:don't|do not) want (?:any )?advice)?",
+        "i (?:don't|do not) want (?:any )?advice(?: (?:please )?just listen)?",
+        "(?:please )?listen without (?:giving )?advice"
+      ],
+      "requiredPhrases": [
+        [
+          "listen",
+          "advice"
+        ]
+      ],
+      "priority": 100,
+      "variants": [
+        "047"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": true,
+    "action": "acknowledge_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {
+        "47c38ca4-5f35-497b-b1a3-415245fb35e1:english-v1": "557bea3ab39e633bb1588584f3d997cbd9e816ee958778aba3f8b6d28f6b594e",
+        "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4:english-v1": "e0606fd6aad67c395c34ad8cb96fd59f0576740de80565a4d6725599a451efef",
+        "7d444628-dd13-442b-b687-71a6baf0c07e:english-v1": "857abb27811a44b3909ddb818112f893d139117570fe479453e139e48feab6ba",
+        "ca566b43-944e-4474-b494-7d9f0695f307:english-v1": "d38f2f1aa35079170d88f94bafadddf0791a7b31a845b6a51230005537547a92"
+      }
+    }
+  },
+  {
+    "id": "048",
+    "intent": "help_reaching_out",
+    "category": "eating_related",
+    "responseText": "We can put a message together. What would you most want them to understand?",
+    "exampleUtterances": [
+      "Help me reach out to someone I trust."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "048"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "049",
+    "intent": "decline_question",
+    "category": "eating_related",
+    "responseText": "That’s okay. We can skip it. You get to choose what you share.",
+    "exampleUtterances": [
+      "I don't want to answer that question."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "i (?:don't|do not) want to answer that(?: question)?",
+        "(?:please )?(?:skip|don't ask me) that question"
+      ],
+      "requiredPhrases": [
+        [
+          "question",
+          "answer that"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "049"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [
+      "previous_assistant_question"
+    ],
+    "autoRouteEnabled": true,
+    "action": "acknowledge_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "050",
+    "intent": "pause_or_finish",
+    "category": "eating_related",
+    "responseText": "Of course. We can stop here. Thanks for telling me what you need.",
+    "exampleUtterances": [
+      "I want to end the call now."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "i (?:want|need|would like) to (?:end|finish|stop) (?:the|this) call(?: now)?",
+        "(?:please )?(?:end|finish|stop) (?:the|this) call(?: now)?"
+      ],
+      "requiredPhrases": [
+        [
+          "call"
+        ],
+        [
+          "end",
+          "finish",
+          "stop"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "050"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": true,
+    "action": "offer_call_end",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "051",
+    "intent": "unexplained_anxiety",
+    "category": "anxiety",
+    "responseText": "You don’t need to know why just yet. When did you first notice it today?",
+    "exampleUtterances": [
+      "I'm anxious and don't know why."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "051"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "052",
+    "intent": "racing_thoughts",
+    "category": "anxiety",
+    "responseText": "Sounds like your mind won’t give you a break. What keeps coming back?",
+    "exampleUtterances": [
+      "My thoughts are racing."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "052"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "053",
+    "intent": "expecting_bad_events",
+    "category": "anxiety",
+    "responseText": "That sounds tiring. Is there one worry that’s louder than the others?",
+    "exampleUtterances": [
+      "I keep expecting something bad to happen."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "053"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "054",
+    "intent": "anticipatory_anxiety",
+    "category": "anxiety",
+    "responseText": "Waiting can be hard. Which part are you dreading?",
+    "exampleUtterances": [
+      "I'm anxious about something coming up."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "054"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "055",
+    "intent": "what_if_worries",
+    "category": "anxiety",
+    "responseText": "There are a lot of ‘what ifs’ right now. Which one is bothering you most?",
+    "exampleUtterances": [
+      "I keep getting stuck in what-if worries."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "055"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "056",
+    "intent": "stuck_on_small_event",
+    "category": "anxiety",
+    "responseText": "It’s really stayed with you. What about it keeps pulling you back?",
+    "exampleUtterances": [
+      "I can't stop thinking about a small thing that happened."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "056"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "057",
+    "intent": "uncertainty",
+    "category": "anxiety",
+    "responseText": "Not knowing is hard. What are you waiting to find out?",
+    "exampleUtterances": [
+      "I'm struggling with uncertainty."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "057"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "058",
+    "intent": "decision_anxiety",
+    "category": "anxiety",
+    "responseText": "This choice matters to you. What feels at stake?",
+    "exampleUtterances": [
+      "Making this decision makes me anxious."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "058"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "059",
+    "intent": "overwhelmed",
+    "category": "anxiety",
+    "responseText": "That’s a lot at once. We can pick one thing, if you’d like.",
+    "exampleUtterances": [
+      "I feel overwhelmed right now."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "i (?:feel|am feeling|'m feeling) overwhelmed(?: (?:right )?now)?"
+      ],
+      "requiredPhrases": [
+        [
+          "i feel",
+          "i am feeling",
+          "i'm feeling"
+        ],
+        [
+          "overwhelmed"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "059"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "acknowledge_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "060",
+    "intent": "no_more_analysis",
+    "category": "anxiety",
+    "responseText": "Okay. We can leave the reasons alone. Would a little company help?",
+    "exampleUtterances": [
+      "I don't want to analyze this anymore."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "i (?:don't|do not) want to (?:analyze|analyse) this (?:anymore|any more)"
+      ],
+      "requiredPhrases": [
+        [
+          "analyze",
+          "analyse"
+        ],
+        [
+          "don't",
+          "do not"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "060"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "061",
+    "intent": "too_many_tasks",
+    "category": "school_work",
+    "responseText": "Want to tell me what’s on the list? We can look at it together.",
+    "exampleUtterances": [
+      "I have too many tasks to do."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "061"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "062",
+    "intent": "procrastination_and_blame",
+    "category": "school_work",
+    "responseText": "It sounds like you’re stuck, and being hard on yourself too. What’s hard to start?",
+    "exampleUtterances": [
+      "I keep procrastinating and blaming myself."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "062"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "063",
+    "intent": "exam_or_deadline_worry",
+    "category": "school_work",
+    "responseText": "That deadline is hanging over you. What are you most worried about?",
+    "exampleUtterances": [
+      "I'm worried about an upcoming exam."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "063"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "064",
+    "intent": "effort_never_enough",
+    "category": "school_work",
+    "responseText": "You’ve put a lot into this. What would ‘enough’ look like to you?",
+    "exampleUtterances": [
+      "My effort never feels like enough."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "064"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "065",
+    "intent": "feeling_behind_others",
+    "category": "school_work",
+    "responseText": "That comparison sounds rough. What’s been making you feel behind?",
+    "exampleUtterances": [
+      "I feel behind everyone else."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "065"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "066",
+    "intent": "perfectionism",
+    "category": "school_work",
+    "responseText": "That’s a lot of pressure to carry. What happens when something isn’t perfect?",
+    "exampleUtterances": [
+      "I feel like everything must be perfect."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "066"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "067",
+    "intent": "afraid_to_rest",
+    "category": "school_work",
+    "responseText": "Even resting feels hard right now. What worries you about taking a break?",
+    "exampleUtterances": [
+      "I'm afraid to take a rest."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "067"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "068",
+    "intent": "unrecognized_effort",
+    "category": "school_work",
+    "responseText": "It hurts when your effort goes unseen. What do you wish someone would notice?",
+    "exampleUtterances": [
+      "I feel like no one notices my effort."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "068"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "069",
+    "intent": "difficulty_focusing",
+    "category": "school_work",
+    "responseText": "What’s it like when you try—do your thoughts wander, or does everything feel like too much?",
+    "exampleUtterances": [
+      "I'm finding it difficult to focus."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "069"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "070",
+    "intent": "unproductive_day",
+    "category": "school_work",
+    "responseText": "Sounds like today didn’t go how you hoped. What was getting in the way?",
+    "exampleUtterances": [
+      "I feel like today was unproductive."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "070"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "071",
+    "intent": "waiting_for_message",
+    "category": "relationships",
+    "responseText": "Waiting for a reply can leave room for so many thoughts. What’s yours telling you?",
+    "exampleUtterances": [
+      "I'm worried while waiting for a reply."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "071"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "072",
+    "intent": "fear_of_dislike",
+    "category": "relationships",
+    "responseText": "That’s a painful worry. Did something happen that brought it up?",
+    "exampleUtterances": [
+      "I'm afraid they don't like me."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "072"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "073",
+    "intent": "replaying_conversation",
+    "category": "relationships",
+    "responseText": "Which part of the conversation keeps replaying?",
+    "exampleUtterances": [
+      "I keep replaying a conversation."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "073"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "074",
+    "intent": "social_event_anxiety",
+    "category": "relationships",
+    "responseText": "What feels hardest—the first hello, keeping a chat going, or something else?",
+    "exampleUtterances": [
+      "I'm anxious about a social event."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "074"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "075",
+    "intent": "difficulty_saying_no",
+    "category": "relationships",
+    "responseText": "Saying no can feel awkward. What would you like to say no to?",
+    "exampleUtterances": [
+      "I'm struggling to say no."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "075"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "076",
+    "intent": "fear_of_disappointing",
+    "category": "relationships",
+    "responseText": "You care about them. What do you need in this situation too?",
+    "exampleUtterances": [
+      "I'm afraid of disappointing someone."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "076"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "077",
+    "intent": "argument_with_friend",
+    "category": "relationships",
+    "responseText": "That sounds upsetting. Want to tell me how it started?",
+    "exampleUtterances": [
+      "I had an argument with my friend."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "077"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "078",
+    "intent": "feeling_excluded",
+    "category": "relationships",
+    "responseText": "Feeling left out hurts. What happened?",
+    "exampleUtterances": [
+      "I'm feeling excluded."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "078"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "079",
+    "intent": "caring_for_everyone_else",
+    "category": "relationships",
+    "responseText": "It sounds like you’ve been giving a lot. What kind of care are you missing?",
+    "exampleUtterances": [
+      "I keep caring for everyone else and neglecting myself."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "079"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "080",
+    "intent": "afraid_of_bothering_others",
+    "category": "relationships",
+    "responseText": "What would you want to tell them, if worrying about bothering them wasn’t in the way?",
+    "exampleUtterances": [
+      "I'm afraid of bothering people when I need support."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "080"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "081",
+    "intent": "lonely_around_people",
+    "category": "low_mood",
+    "responseText": "Being around people and feeling close to them can be different. What feels missing?",
+    "exampleUtterances": [
+      "I feel lonely even around people."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "081"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "082",
+    "intent": "missing_someone",
+    "category": "low_mood",
+    "responseText": "Want to tell me about them?",
+    "exampleUtterances": [
+      "I'm missing someone."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "082"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "083",
+    "intent": "homesick",
+    "category": "low_mood",
+    "responseText": "What do you miss most about home today?",
+    "exampleUtterances": [
+      "I'm homesick."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "083"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "084",
+    "intent": "feeling_empty",
+    "category": "low_mood",
+    "responseText": "That sounds hard to describe. Has it felt like this all day?",
+    "exampleUtterances": [
+      "I'm feeling empty."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "084"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "085",
+    "intent": "missing_enjoyment",
+    "category": "low_mood",
+    "responseText": "That sounds discouraging. What have you been missing the feeling of enjoying?",
+    "exampleUtterances": [
+      "I miss enjoying things."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "085"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "086",
+    "intent": "unsure_of_needs",
+    "category": "low_mood",
+    "responseText": "That’s okay. Would talking, quiet company, or a different topic feel easiest?",
+    "exampleUtterances": [
+      "I don't know what I need right now."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "086"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "087",
+    "intent": "wanting_to_cry",
+    "category": "low_mood",
+    "responseText": "You don’t need a neat explanation. We can stay with what you’re feeling.",
+    "exampleUtterances": [
+      "I want to cry and can't explain why."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "087"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "acknowledge_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "088",
+    "intent": "irritability_and_regret",
+    "category": "low_mood",
+    "responseText": "Sounds like it’s been a rough stretch. What was happening before you got upset?",
+    "exampleUtterances": [
+      "I've been irritable and regret how I acted."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "088"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "089",
+    "intent": "tired_of_pretending",
+    "category": "low_mood",
+    "responseText": "You don’t have to sound okay here. What has today really been like?",
+    "exampleUtterances": [
+      "I'm tired of pretending I'm okay."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "089"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "090",
+    "intent": "listen_without_questions",
+    "category": "low_mood",
+    "responseText": "Okay. No more questions for now. You can say as much or as little as you want.",
+    "exampleUtterances": [
+      "Please don't ask me any more questions."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "(?:please )?(?:don't|do not) ask me (?:any )?(?:more|any more) questions(?: (?:right )?now)?",
+        "(?:please )?no more questions(?: (?:right )?now)?",
+        "(?:please )?listen without (?:asking )?questions"
+      ],
+      "requiredPhrases": [
+        [
+          "questions"
+        ]
+      ],
+      "priority": 100,
+      "variants": [
+        "090"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": true,
+    "action": "wait_for_user",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {
+        "47c38ca4-5f35-497b-b1a3-415245fb35e1:english-v1": "5b108dd4d1876f42a46461f6a63aa95b9f0c7b756b55efcde4cb0c3eb479ab82",
+        "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4:english-v1": "4fc86f5bf256ee5136793d3c68cf8f45cdbde279cb367cf2731b9780eb7ec743",
+        "7d444628-dd13-442b-b687-71a6baf0c07e:english-v1": "48cd066a692229bb3ddbbfb1a5aa1a277dcb0f4cc90dde9ea5c4e0f3958aac4d",
+        "ca566b43-944e-4474-b494-7d9f0695f307:english-v1": "d8fb863312d6534776580c941d79da116699e84367826ac162e9a9e5a006bd91"
+      }
+    }
+  },
+  {
+    "id": "091",
+    "intent": "nighttime_overthinking",
+    "category": "rest_company",
+    "responseText": "Things get louder when the day gets quiet, huh? What’s on your mind tonight?",
+    "exampleUtterances": [
+      "I'm overthinking at night."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "091"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "092",
+    "intent": "tomorrow_worries",
+    "category": "rest_company",
+    "responseText": "Tomorrow is taking up a lot of tonight. Which part are you thinking about?",
+    "exampleUtterances": [
+      "I'm worrying about tomorrow tonight."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "092"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "093",
+    "intent": "replaying_day_at_bedtime",
+    "category": "rest_company",
+    "responseText": "Is there one moment from today that keeps coming back?",
+    "exampleUtterances": [
+      "I'm replaying the day at bedtime."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "093"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "094",
+    "intent": "worry_about_sleep",
+    "category": "rest_company",
+    "responseText": "That worry sounds tiring on its own. Would you like a quiet chat for a bit?",
+    "exampleUtterances": [
+      "I'm worried I won't sleep."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "094"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "095",
+    "intent": "tired_but_busy_mind",
+    "category": "rest_company",
+    "responseText": "Your body wants a rest, but your mind’s still busy. Want to put some of those thoughts into words?",
+    "exampleUtterances": [
+      "I'm tired but my mind is busy."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "095"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "096",
+    "intent": "guilt_about_rest",
+    "category": "rest_company",
+    "responseText": "What does that guilty voice say when you try to rest?",
+    "exampleUtterances": [
+      "I feel guilty about resting."
+    ],
+    "matchingRules": {
+      "patterns": [],
+      "requiredPhrases": [],
+      "priority": 50,
+      "variants": [
+        "096"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "097",
+    "intent": "request_light_conversation",
+    "category": "rest_company",
+    "responseText": "Sure. What’s a small thing that made you smile lately?",
+    "exampleUtterances": [
+      "Can we have a light conversation?"
+    ],
+    "matchingRules": {
+      "patterns": [
+        "(?:can we|let's|i (?:want|would like) to) (?:have )?(?:a )?light conversation",
+        "(?:please )?(?:talk|chat) (?:to|with) me about something (?:light|else)"
+      ],
+      "requiredPhrases": [
+        [
+          "light",
+          "something else"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "097",
+        "018"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "offer_topic_change",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "098",
+    "intent": "request_easy_question",
+    "category": "rest_company",
+    "responseText": "Okay—rainy afternoons or sunny mornings?",
+    "exampleUtterances": [
+      "Ask me an easy question."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "(?:please )?ask me (?:an? )?(?:easy|simple) question"
+      ],
+      "requiredPhrases": [
+        [
+          "ask me"
+        ],
+        [
+          "easy",
+          "simple"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "098"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "ask_and_wait",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "099",
+    "intent": "topic_too_heavy",
+    "category": "rest_company",
+    "responseText": "We can set it down. Want something lighter, or a quiet moment?",
+    "exampleUtterances": [
+      "This topic feels too heavy right now."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "this (?:topic|conversation) (?:feels|is) too heavy(?: (?:right )?now)?"
+      ],
+      "requiredPhrases": [
+        [
+          "too heavy"
+        ],
+        [
+          "this topic",
+          "this conversation"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "099"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [],
+    "autoRouteEnabled": false,
+    "action": "offer_topic_change",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  },
+  {
+    "id": "100",
+    "intent": "explicitly_feeling_better",
+    "category": "rest_company",
+    "responseText": "I’m glad it feels a little lighter. We can leave it here, or keep talking.",
+    "exampleUtterances": [
+      "I'm feeling better now."
+    ],
+    "matchingRules": {
+      "patterns": [
+        "i(?: am|'m) feeling (?:a little |a bit )?better now",
+        "i feel (?:a little |a bit )?better now"
+      ],
+      "requiredPhrases": [
+        [
+          "i feel",
+          "i'm feeling",
+          "i am feeling"
+        ],
+        [
+          "better now"
+        ]
+      ],
+      "priority": 50,
+      "variants": [
+        "100"
+      ],
+      "cooldownTurns": 8
+    },
+    "exclusions": [
+      "safety_context",
+      "quoted_or_third_party",
+      "hypothetical_or_past",
+      "mixed_or_complex_request",
+      "recent_response",
+      "answered_question"
+    ],
+    "contextRequirements": [
+      "explicit_feeling_better"
+    ],
+    "autoRouteEnabled": false,
+    "action": "offer_call_end",
+    "audioAssets": {
+      "contentVersion": "english-v1",
+      "voices": {}
+    }
+  }
+]

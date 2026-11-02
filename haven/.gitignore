@@ -1,0 +1,14 @@
+node_modules
+.next
+.env*
+!.env.example
+data
+__pycache__
+.venv
+*.tsbuildinfo
+
+.voice-cache
+
+# Archived generated, public-library audio (not a deployment asset).
+archive/voice-responses/audio/
+

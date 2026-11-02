@@ -1,0 +1,19 @@
+# Secrets and private local state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+**/data/
+**/.voice-cache/
+**/artifacts/
+verification.json
+
+# Rebuildable dependencies and output
+node_modules/
+.next/
+.venv/
+__pycache__/
+*.tsbuildinfo
